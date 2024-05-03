@@ -40,5 +40,21 @@
     "register_email": "يرجى التحقق من بريدك الإلكتروني لإكمال التسجيل.",
     "apiurl_url_local": "يحتوي عنوان URL الخاص بواجهة برمجة التطبيقات على عنوان من مساحة العنوان الخاص. لا يمكن الوصول إلى هذه العناوين إلا من داخل شبكتك. الرجاء إدخال مجال يمكن الوصول إليه خارجيًا.",
     "verify_already_linked": "حساب ديسكورد الخاص بك متصل بالفعل بحساب مختلف.",
-    "register_description": "إنشاء حساب"
+    "register_description": "إنشاء حساب",
+    "configure_link_success": "تم ربط سيرفر Discord الخاص بك بنجاح بموقع NamelessMC الخاص بك.",
+    "configure_unlink_success": "تم إلغاء ربط Nameless-Link من الموقع بنجاح.",
+    "configure_username_sync_missing_permission": "إذن تغيير الألقاب غير مفعل. يرجى طرد وإعادة إضافة البوت للتأكد من تفعيل إذن 'Manage Nicknames'.",
+    "configure_username_sync_enabled": "تم تمكين مزامنة اسم المستخدم. يرجى ملاحظة أن Nameless-Link لا يمكنه تحديث الألقاب للمستخدمين ذوي الرتب الأعلى. يجب عليك نقل رتبة Nameless-Link إلى الأعلى في إعدادات الرتب. لن يقوم Nameless-Link أبدًا بتغيير لقب مالك السيرفر، لأن ذلك غير مسموح به بواسطة Discord.",
+    "configure_description": "تغيير إعدادات Nameless-Link.",
+    "configure_link_description": "ربط البوت بالموقع.",
+    "configure_link_option_api_url": "رابط API موقعك (StaffCP > Configuration > API).",
+    "configure_unlink_description": "إلغاء ربط البوت بالموقع.",
+    "configure_unlink_not_linked": "لا يمكن إلغاء الربط، البوت غير مربوط.",
+    "configure_test_description": "‌تحقق مما إذا كان اتصال الموقع يعمل.",
+    "configure_username_sync_description": "تمكين أو تعطيل مزامنة أسماء مستخدمي NamelessMC مع أسماء مستخدمي Discord.",
+    "configure_username_sync_disabled": "تم تعطيل مزامنة اسم المستخدم.",
+    "configure_update_usernames_description": "فرض إرسال أسماء مستخدمي Discord المحدثة إلى NamelessMC.",
+    "configure_test_working": "يبدو أن اتصال موقع API يعمل.  استغرق {time}ms.",
+    "configure_update_usernames_start": "إرسال أسماء مستخدمين جديدة لجميع الأعضاء إلى NamelessMC...",
+    "configure_update_usernames_done": "تم!"
 }
