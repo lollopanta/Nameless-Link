@@ -54,7 +54,9 @@
     "configure_username_sync_description": "تمكين أو تعطيل مزامنة أسماء مستخدمي NamelessMC مع أسماء مستخدمي Discord.",
     "configure_username_sync_disabled": "تم تعطيل مزامنة اسم المستخدم.",
     "configure_update_usernames_description": "فرض إرسال أسماء مستخدمي Discord المحدثة إلى NamelessMC.",
-    "configure_test_working": "يبدو أن اتصال موقع API يعمل.  استغرق {time}ms.",
+    "configure_test_working": "يبدو أن اتصال موقع API يعمل. استغرق {time}ms.",
     "configure_update_usernames_start": "إرسال أسماء مستخدمين جديدة لجميع الأعضاء إلى NamelessMC...",
-    "configure_update_usernames_done": "تم!"
+    "configure_update_usernames_done": "تم!",
+    "configure_link_option_api_key": "مفتاح API موقعك (StaffCP > Configuration > API).",
+    "configure_username_sync_option_state": "ما إذا تم تمكين مزامنة اسم المستخدم."
 }
