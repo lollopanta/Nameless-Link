@@ -19,6 +19,7 @@ import com.namelessmc.java_api.logger.Slf4jLogger;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDA.Status;
 import net.dv8tion.jda.api.JDABuilder;
+import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.Permission;
 import net.dv8tion.jda.api.entities.Guild;
 import net.dv8tion.jda.api.entities.User;
@@ -49,7 +50,7 @@ import java.util.function.Consumer;
 public class Main {
 
 	public static final String USER_AGENT = "Nameless-Link/" + Main.class.getPackage().getImplementationVersion();
-	private static final String DEFAULT_LANGUAGE_CODE = "en_UK";
+	private static final String DEFAULT_LANGUAGE_CODE = "it_IT";
 
 	private static JDA[] jda;
 	public static JDA getJda(final int shardId) { return jda[shardId]; }
@@ -151,6 +152,7 @@ public class Main {
 					.addEventListeners(new DiscordRoleListener())
 					.enableIntents(GatewayIntent.GUILD_MEMBERS, GatewayIntent.DIRECT_MESSAGES)
 					.setMemberCachePolicy(MemberCachePolicy.ALL)
+					.setActivity(Activity.playing("kingmc.it"))
 					.useSharding(i, shards)
 					.build();
 		}
